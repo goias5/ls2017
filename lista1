@@ -1,0 +1,25 @@
+Atividade Supervisionada Lista 1
+
+1 - git --version
+2 a) É o mesmo que --list, ou list all, e lista todas as configurações
+  b) Neste caso, ele renomeia o arquivo a.txt para b.txt
+  c) Reseta o índice e a árvore de trabalho, e qualquer mudança nos arquivos monitorados na arvore de trabalho desde o <commit>
+  (envio) são descartados
+  d) Mostra os últimos 27 commit logs
+  e) Mostra uma lista de comandos comuns do git usados em várias situações
+  f) Mostra a documentação do comando reset
+  g) Atualiza o índice não somente onde a árvore de trabalho possui um arquivo que corresponde a <pathspec> mas também onde o 
+  índice já tem uma entrada. Isto adiciona, modifica, e remove entradas no índice para se igualar à árvore de trabalho. Como foi
+  enviado sem um <pathspec>, somente o comando -all, todos os arquivos em toda a árvore de trabalho são atualizados.
+  h) Atualiza o índice, todos os arquivos monitorados em toda a árvore de trabalho são atualizados.
+  3 git -add arquivo
+    git -commit arquivo
+  4 git diff commitAtual commitAnterior
+  5 git status
+  6 git commit
+  7 git reset teste.txt
+  8 Deve ser especificado um padrão no arquivo de configuração gitIgnore para que este diretório seja ignorado.
+  9 Pode-se recuperar a partir do repositório remoto
+  10 deve-se utilizar o comando git clone [enderecoDoRepositorio]
+  11 
+  
