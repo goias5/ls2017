@@ -21,5 +21,18 @@ Atividade Supervisionada Lista 1
   8 Deve ser especificado um padrão no arquivo de configuração gitIgnore para que este diretório seja ignorado.
   9 Pode-se recuperar a partir do repositório remoto
   10 deve-se utilizar o comando git clone [enderecoDoRepositorio]
-  11 
+  11 git log --oneline
+  12 no arquivo gitconfig
+  13 git init [nomeDoRepositorio]
+  14 .git
+  15 git add .
+  16 Significa que o git usa algoritmo de hash SHA1 para gerar um hash referente ao seu commit. O algoritmo de hash SHA1 é um algoritmo
+  que pega uma String de bytes de tamanho variável e transforma em uma String hexadecimal de tamanho fixo. Da forma que o algoritmo é,
+  a chance de se ter dois hashs iguais e arquivos diferentes é praticamente impossível, devido ao tamanho de possibilidades e a forma de
+  funcionamento do algoritmo. Dessa forma, se dois hashs sao idênticos, se garante a autenticidade de determinado arquivo, ou commit, ou
+  conjunto de bits de tamanho qualquer. O propósito seria garantir a autenticidade de um commit.
+  17 git log --abbrev-commit
+  18 Passam de untracked para obviamente tracked, mas new file não sei se é uma nomenclatura para arquivos que agora estão monitorados,
+  ou seja tracked.
+  19 
   
