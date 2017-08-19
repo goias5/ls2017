@@ -42,6 +42,22 @@ Atividade Supervisionada Lista 1
   22 basta nas configurações do git ignore, utilizando a sintaxe dada na documentação, especificar para o git ignorar todos os arquivos
   .class
   23 Ok
-  24
+  24 Mostra uma lista de nomes e emails, referente aos últimos envios provavelmente e alterações no repositório.
+  25 Mostra a configuração da variável "origin" de "fetch" e de "push"
+  26 git tag
+  27 git tag -1 'v2.0.*'
+  28 Cria-se uma tag anotada versão 3.4-gold, e inclui a mensagem "minha versão ouro" junto à tag, armazenados então no banco
+  de dados do git como objetos inteiros, junto ao nome e email de quem criou a tag, e a data.
+  29 mostra-se o nome da tag 3.4-gold, e logo abaixo o criador da tag, o email do criador da tag, o hash referente ao commit,
+  o autor do commit, a data do commit, testes, correções, fechamentos, e outras informações difíceis de se interpretar.
+  30 Executa um push, eviando do diretório local para o repositório remoto definido na variável origin, os arquivos do commit
+  atual, com o nome de versão 3.4-gold
+  31 Temos a resposta na documentação do git, que diz, em relação ao comando git commit --ammend: "Uma das situações mais comuns 
+  para desfazer algo, acontece quando você faz o commit muito cedo e possivelmente esqueceu de adicionar alguns arquivos, ou você
+  bagunçou sua mensagem de commit. Se você quiser tentar fazer novamente esse commit, você pode executá-lo com a opção --amend"
+  32 Ele retira dos arquivos adicionados, todos os arquivos menos o arquivo x.txt
+  33 Ele faz uma atualização do arquivo a.txt para que este esteja idêntico ao arquivo a.txt que está no repositório.
+  34 O primeiro comando remove todos que estavam adicionados para serem enviados ao servidor e deixa somente o x.txt, enquanto
+  o segundo atualiza o arquivo a.txt na máquina para ficar idêntico ao do servidor.
 
   
