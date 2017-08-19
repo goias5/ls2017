@@ -34,5 +34,14 @@ Atividade Supervisionada Lista 1
   17 git log --abbrev-commit
   18 Passam de untracked para obviamente tracked, mas new file não sei se é uma nomenclatura para arquivos que agora estão monitorados,
   ou seja tracked.
-  19 
+  19 O primeiro comando não toca o arquivo de índice na árvore de trabalho de jeito nenhum, mas reseta o cabeçalho para <commit>, 
+  idêntico a outros modos, e aliado com HEAD~1, reseta o cabeçalho para antes da segunda adição de arquivos.
+  O segundo reseta tudo para o ultimo commit, então o estado final é o do último commit.
+  20 Já que o diretório não está monitorado, basta deletá-lo, e isto depende de sistema operacional
+  21 gitignore
+  22 basta nas configurações do git ignore, utilizando a sintaxe dada na documentação, especificar para o git ignorar todos os arquivos
+  .class
+  23 Ok
+  24
+
   
