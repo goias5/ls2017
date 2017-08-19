@@ -1,0 +1,19 @@
+
+1 Ok
+2 Executar o comando git tag vx.x.x.x.x
+3 master
+4 cria um novo branch com o nome <branchname>
+5 Deixa-se o commit específico no repositório local, como o commit atual de trabalho em master, e a partir daí, cria-se um branch
+específico com um nome qualquer definido, e pode-se começar a trabalhar nele.
+6 Cria-se um branch com o nome erro1234
+7 git checktou experimento2
+8 Mostra o galho "branch" atual com um asterisco
+9 Faz a criação do branch novo branch e já muda para ele também automaticamente, corresponde ao comando "git branch novobranch",
+seguido do comando "git checkout novobranch".
+10 Deleta o branch com nome "teste"
+11 $ git checkout -b branch1
+   $ vim index.html
+   $ git commit -a -m 'adicionei uma nova imagem'
+   $ git checkout master
+   $ git merge branch1
+   
